@@ -1,6 +1,6 @@
 import Chat from "./Chat";
 
-function Chats() {
+const Chats = () => {
   return (
     <div id="chats">
       <h2>Chats</h2>
@@ -18,6 +18,6 @@ function Chats() {
       />
     </div>
   );
-}
+};
 
 export default Chats;

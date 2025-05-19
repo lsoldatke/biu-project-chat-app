@@ -1,4 +1,4 @@
-function Chat({ profilePicUrl, name }) {
+const Chat = ({ profilePicUrl, name }) => {
   return (
     <div class="chat">
       <img src={profilePicUrl} alt="Profile picture" class="chat-profile-pic" />
@@ -8,6 +8,6 @@ function Chat({ profilePicUrl, name }) {
       </div>
     </div>
   );
-}
+};
 
 export default Chat;
